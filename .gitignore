@@ -1,0 +1,7 @@
+# Brand assets — keep local, don't publish to repo
+pulse_brand_framework.pdf
+pulse_venue.html
+
+# OS
+.DS_Store
+Thumbs.db
