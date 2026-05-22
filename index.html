@@ -75,11 +75,7 @@
 <header>
   <nav aria-label="Main navigation">
     <a href="/" class="logo" aria-label="Pulse — Home">
-      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true" focusable="false" style="overflow:visible;">
-        <!-- Sonar ping rings — expand outward and fade -->
-        <circle class="logo-ping" cx="15" cy="15" r="14" stroke="#E5A93C" stroke-width="1.2" fill="none"/>
-        <circle class="logo-ping" cx="15" cy="15" r="14" stroke="#E5A93C" stroke-width="1.2" fill="none" style="animation-delay:1.1s"/>
-        <!-- Static brand rings -->
+      <svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true" focusable="false">
         <circle cx="15" cy="15" r="14" stroke="#E5A93C" stroke-width="1.5" fill="none"
           stroke-dasharray="73.3 14.7" transform="rotate(-90 15 15)"/>
         <circle cx="15" cy="15" r="10" stroke="#BA8730" stroke-width="1.3" fill="none"
@@ -288,7 +284,7 @@
         <p class="final-sub">We're onboarding a small group of Singapore venue partners. Tell us about your place and we'll be in touch.</p>
       </div>
       <div>
-        <form class="final-form" onsubmit="listVenue(event)" novalidate aria-label="Venue partner signup">
+        <form class="final-form" id="venue-form" novalidate aria-label="Venue partner signup">
           <label for="venue-name" class="sr-only">Venue name</label>
           <input id="venue-name" type="text" name="venue" placeholder="Venue name" required autocomplete="organization">
 
@@ -329,6 +325,6 @@
 </footer>
 
 <!-- JS deferred for performance -->
-<script src="assets/js/main.js" defer></script>
+<script src="/assets/js/main.js" defer></script>
 </body>
 </html>
