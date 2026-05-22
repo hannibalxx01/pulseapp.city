@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
 }());
 
 /* ── Config ── */
-var SHEETS_WEBHOOK = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
-var FORMSPREE_URL  = 'PASTE_YOUR_FORMSPREE_URL_HERE';
+var SHEETS_WEBHOOK = 'https://script.google.com/macros/s/AKfycbwBUfqOd2j_TCadI0fKhXsTDkwlxJnPuCX2QOgf5ayECLJDCM4nkKZjbU4bTPrgg4SuZA/exec';
+var FORMSPREE_URL  = 'https://formspree.io/f/xdajzopp';
 
 /* ── Venue signup form ── */
 function listVenue(e) {
